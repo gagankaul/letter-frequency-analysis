@@ -54,6 +54,6 @@ while choice == True:
   sentence = input("\nEnter a word or phrase to count the occurence of each letter: ").lower().strip()
   #Run the function
   frequency_analysis(sentence)
-  usr_input = input("\nWould you like to generate frequency table for another phrase (y/n)? ").lower().strip()
+  usr_input = input("\nWould you like to generate a frequency table for another phrase (y/n)? ").lower().strip()
   if usr_input == "n":
     choice = False
